@@ -1,0 +1,134 @@
+[Root]
+Most Recent Package=Stan1
+
+
+[Package|Stan1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=F:\My Studies\Subjects VI Semester\MIS Project\Package
+
+[Package|Stan1|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=No
+Excel=No
+Exchange=Yes
+Text=No
+Jet 2.x=No
+Lotus=No
+Paradox=No
+
+[Package|Stan1|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|Stan1|Files Found]
+
+[Package|Stan1|Files Released]
+
+[Package|Stan1|Missing Dependency Information]
+C:\WINDOWS\system32\MSEXCH35.DLL=
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+
+[Package|Stan1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSRDO20.DLL=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+
+[Package|Stan1|Files Added]
+
+[Package|Stan1|Files Removed]
+
+[Package|Stan1|Files In Project]
+F:\My Studies\Subjects VI Semester\MIS Project\EZ Storekeeper\EZ Storekeeper.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Programming\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\system32\MSJET35.DLL=Yes
+C:\WINDOWS\system32\MSJTER35.DLL=Yes
+C:\WINDOWS\system32\MSJINT35.DLL=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\MSRD2X35.DLL=Yes
+C:\WINDOWS\system32\MSREPL35.DLL=Yes
+C:\Programming\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\MSRDO20.DLL=Yes
+C:\WINDOWS\system32\RDOCURS.DLL=Yes
+C:\Programming\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\WINDOWS\system32\MSEXCH35.DLL=Yes
+C:\Programming\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Programming\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Programming\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Stan1|Configure Registry Files]
+Applicable=No
+
+[Package|Stan1|Configure Remote Servers]
+Applicable=No
+
+[Package|Stan1|Install Locations]
+F:\My Studies\Subjects VI Semester\MIS Project\EZ Storekeeper\EZ Storekeeper.exe=$(ProgramFiles)\EZS
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Programming\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Programming\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDOCURS.DLL=$(WinSysPath)
+C:\Programming\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\WINDOWS\system32\MSEXCH35.DLL=$(WinSysPath)
+C:\Programming\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Programming\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Programming\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Stan1|Configure Shared Files]
+Applicable=Yes
+F:\My Studies\Subjects VI Semester\MIS Project\EZ Storekeeper\EZ Storekeeper.exe=No
+C:\Programming\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|Stan1|Distribution]
+Type=single
+Size=
+Title=EZ Storekeeper
+
+[Package|Stan1|IconGroups]
+Group0=EZ Storekeeper
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Stan1|EZ Storekeeper]
+Icon1="EZ Storekeeper.exe"
+Title1=EZ Storekeeper
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Stan1|Package]
+PackageFolder=F:\My Studies\Subjects VI Semester\MIS Project\Package
+ProjectFolder=F:\My Studies\Subjects VI Semester\MIS Project\EZ Storekeeper
+ServerSideCab=
+File1=F:\My Studies\Subjects VI Semester\MIS Project\Package\setup.exe
+File2=F:\My Studies\Subjects VI Semester\MIS Project\Package\Setup.Lst
+File3=F:\My Studies\Subjects VI Semester\MIS Project\Package\EZ Storekeeper.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
